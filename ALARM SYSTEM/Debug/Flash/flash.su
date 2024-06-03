@@ -1,0 +1,3 @@
+../Flash/flash.c:14:17:GetPage	24	static
+../Flash/flash.c:27:6:read_flash_memory	32	static
+../Flash/flash.c:35:6:write_flash_memory	48	static

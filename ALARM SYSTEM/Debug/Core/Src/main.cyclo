@@ -1,0 +1,25 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+main.cpp:150:6:void progressBar(int, int, int, int)	3
+main.cpp:163:6:void Paramertes_Init()	1
+main.cpp:188:6:void DisplayManagement()	8
+main.cpp:243:6:void StateMachine()	5
+main.cpp:261:6:void RUN()	3
+main.cpp:290:6:void ALARM()	2
+main.cpp:312:6:void WAIT()	3
+main.cpp:342:6:void detect()	2
+main.cpp:355:6:void reinitVariables()	1
+main.cpp:367:6:void checkActivateScreen()	3
+main.cpp:381:17:uint32_t currentTime()	1
+main.cpp:385:6:void logoAnimation()	1
+main.cpp:406:6:void drawHomePage(uint8_t, int)	4
+main.cpp:465:6:void drawSettingsPage(uint8_t)	3
+main.cpp:520:6:void drawParameterPage()	3
+main.cpp:581:6:void Encoder_Init()	1
+main.cpp:601:5:int main()	14
+main.cpp:810:6:void SystemClock_Config()	3
+main.cpp:847:6:void HAL_GPIO_EXTI_Callback(uint16_t)	9
+main.cpp:907:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	5
+main.cpp:934:6:void Error_Handler()	1
+main.cpp:943:1:void __static_initialization_and_destruction_0(int, int)	5
+main.cpp:943:1:cpp)	1
+main.cpp:943:1:cpp)	1

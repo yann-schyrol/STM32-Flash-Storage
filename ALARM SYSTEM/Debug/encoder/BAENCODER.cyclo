@@ -1,0 +1,35 @@
+std_function.h:240:5:std::_Function_base::_Function_base()	1
+std_function.h:242:5:std::_Function_base::~_Function_base()	2
+std_function.h:248:10:bool std::_Function_base::_M_empty() const	1
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+std_function.h:303:11:std::function<void()>::~function()	1
+BAENCODER.cpp:10:1:BA_ENCODER::BA_ENCODER()	1
+BAENCODER.cpp:15:1:BA_ENCODER::~BA_ENCODER()	1
+BAENCODER.cpp:20:6:void BA_ENCODER::initEncoder(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	1
+BAENCODER.cpp:32:10:uint32_t BA_ENCODER::getMaxEncoderValue() const	1
+BAENCODER.cpp:36:6:void BA_ENCODER::setMaxEncoderValue(uint32_t)	1
+BAENCODER.cpp:42:10:uint32_t BA_ENCODER::getMinEncoderValue() const	1
+BAENCODER.cpp:46:6:void BA_ENCODER::setMinEncoderValue(uint32_t)	1
+BAENCODER.cpp:51:10:uint16_t BA_ENCODER::getIncrementStep() const	1
+BAENCODER.cpp:55:6:void BA_ENCODER::setIncrementStep(uint16_t)	1
+BAENCODER.cpp:60:10:uint32_t BA_ENCODER::getCurrentEncoderValue() const	1
+BAENCODER.cpp:67:6:void BA_ENCODER::setUserBackwardCallback(BA_ENCODER::BackwardCallback)	1
+BAENCODER.cpp:72:6:void BA_ENCODER::setUserForwardCallback(BA_ENCODER::ForwardCallback)	1
+BAENCODER.cpp:76:6:void BA_ENCODER::HandleForward()	3
+BAENCODER.cpp:93:6:void BA_ENCODER::HandleBackward()	3
+BAENCODER.cpp:113:6:void BA_ENCODER::HandleGPIOEvents(uint16_t&)	19
+BAENCODER.cpp:339:6:void BA_ENCODER::cleanCount()	1
+BAENCODER.cpp:343:6:void BA_ENCODER::setCurrentEncoderValue(uint32_t)	1
+BAENCODER.cpp:348:10:uint32_t BA_ENCODER::getCount() const	1
+std_function.h:330:7:)>::function() [with _Res = void; _ArgTypes = {}]	1
+std_function.h:396:7:)>&) [with _Res = void; _ArgTypes = {}]	1
+std_function.h:498:16:)>::operator bool() const [with _Res = void; _ArgTypes = {}]	1
+std_function.h:617:5:) const [with _Res = void; _ArgTypes = {}]	1
+std_function.h:587:5:)>&) [with _Res = void; _ArgTypes = {}]	2
+std_function.h:481:12:)>&) [with _Res = void; _ArgTypes = {}]	1
+move.h:101:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = std::_Any_data&]	1
+move.h:189:5:std::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&) [with _Tp = std::_Any_data]	1
+move.h:101:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = bool (*&)(std::_Any_data&, const std::_Any_data&, std::_Manager_operation)]	1
+move.h:189:5:std::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&) [with _Tp = bool (*)(std::_Any_data&, const std::_Any_data&, std::_Manager_operation)]	1
+move.h:101:5:constexpr typename std::remove_reference<_Tp>::type&& std::move(_Tp&&) [with _Tp = void (*&)(const std::_Any_data&)]	1
+move.h:189:5:std::_Require<std::__not_<std::__is_tuple_like<_Tp> >, std::is_move_constructible<_Tp>, std::is_move_assignable<_Tp> > std::swap(_Tp&, _Tp&) [with _Tp = void (*)(const std::_Any_data&)]	1

@@ -1,0 +1,2 @@
+../ST7920_SERIAL/delay.c:16:6:delay_init	8	static
+../ST7920_SERIAL/delay.c:21:6:delay_us	16	static
