@@ -1,14 +1,16 @@
-/*Flash Data Storage Guide*/
+*Flash Data Storage Guide*
 
 This guide explains how to integrate flash data storage into your STM32 project. The code provided demonstrates basic read and write operations for flash memory.
 
-/*Prerequisites*/
+*Prerequisites*
+
 STM32 development environment (STM32CubeIDE or similar)
 Basic knowledge of C programming and STM32 HAL library
 Include the flash.h header file in your project
 
 
-/*Flash Data Storage Integration Steps*/
+*Flash Data Storage Integration Steps*
+
 Step 1: Create DataMapping.h
 Create a DataMapping.h file to define the start address and size for your flash memory data. Adjust these values according to your microcontroller's memory map:
 
@@ -88,7 +90,10 @@ void Save_Data_To_Flash(void) {
     // Write updated data to flash memory
     write_flash_memory(FLASH_START_ADDRESS, flashData, FLASH_DATA_SIZE);
 }
-/*Example Usage in main.c*/
+
+*Example Usage in main.c*
+
+
 Here is a simplified example of how to use the flash read and write functions in your main.c:
 
 #include "main.h"
@@ -132,7 +137,9 @@ int main(void) {
     }
 }
 
-/*Acknowledgements*/
+*Acknowledgements*
+
+
 This project was made possible thanks to the valuable information provided by the following references:
 reference 1 form ControllersTech: https://controllerstech.com/flash-programming-in-stm32/
 reference 2 from Steppe School: https://youtu.be/E4FWkNUyQYg.
